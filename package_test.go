@@ -1,4 +1,4 @@
-package CCSDSPacket
+package GoSpacePackets
 
 // #cgo LDFLAGS: -lccsds -L.
 //
