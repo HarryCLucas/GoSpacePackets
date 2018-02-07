@@ -6,7 +6,7 @@ This C++ codebase is wrapped into a C library. The C library is called by Golang
 
 To build the library, simply run build.sh. An example program is available below. This program simply opens a UDP connection to local port 10200, and sends a CCSDS packet to the port once per second:
 
-``` golang
+``` go
 package main
 
 // #cgo LDFLAGS: -lccsds -L.
